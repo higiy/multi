@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yaapo.multi.MainActivity">
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/call_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서브 호출" />
+
+    <CheckBox
+        android:id="@+id/apple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사과" />
+
+    <CheckBox
+        android:id="@+id/grape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="포도" />
+
+    <CheckBox
+        android:id="@+id/banana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="바나나" />
+
+
+</LinearLayout>
